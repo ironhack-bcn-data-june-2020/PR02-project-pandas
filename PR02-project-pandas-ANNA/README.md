@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
+# Global Shark Attack Analysis
 [Anna Vilardell]
 
 [Data Analytics-Part Time Course | Barcelona July 2020]
@@ -11,7 +11,9 @@
 - [Organization](#organization)
 - [Links](#links)
 
-## Project Description
+## Project Description and Workflow
+
+### Description
 Analysis of global shark attacks through data wrangling, cleaning, and manipulation with Pandas.
 
 Main questions to be answered: (to be added)
@@ -22,7 +24,7 @@ Main questions to be answered: (to be added)
 -
 
 
-## Workflow
+### Workflow
 Outline the workflow you used in your project. What are the steps you went through?
 
 (to be added: subir la checklist)
@@ -42,11 +44,11 @@ Outline the workflow you used in your project. What are the steps you went throu
 
 **Inside this repository you can find:**
 
-- Table of shark attack incidents compiled by the Global Shark Attack. Source:[Kaggle](https://www.kaggle.com/teajay/global-shark-attacks?select=attacks.csv)
+- CSV data file with raw data: Table of shark attack incidents compiled by the Global Shark Attack. Source:[Kaggle](https://www.kaggle.com/teajay/global-shark-attacks?select=attacks.csv)
+- CSV data file with clean data 
 - Jupyter notebook of the data wrangling
-- CSV data file with the clean data 
 - Gitignore.txt
-- README.md
+- Readme.md
 
 
 ## Links 
