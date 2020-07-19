@@ -44,8 +44,8 @@ Outline the workflow you used in your project. What are the steps you went throu
 
 **Inside this repository you can find:**
 
-- CSV data file with raw data: Table of shark attack incidents compiled by the Global Shark Attack. Source:[Kaggle](https://www.kaggle.com/teajay/global-shark-attacks?select=attacks.csv)
-- CSV data file with clean data 
+- CSV data file with raw data(attacks.csv): Table of shark attack incidents compiled by the Global Shark Attack. Source:[Kaggle](https://www.kaggle.com/teajay/global-shark-attacks?select=attacks.csv)
+- CSV data file with clean (data-xxx.csv)
 - Jupyter notebook of the data wrangling
 - Gitignore.txt
 - Readme.md
@@ -53,6 +53,6 @@ Outline the workflow you used in your project. What are the steps you went throu
 
 ## Links 
 
-[Repository](https://github.com/AnnaVilardell/PR02-project-pandas)  
+[Repository](https://github.com/AnnaVilardell/PR02-project-pandas/tree/master/PR02-project-pandas-ANNA)  
 [Slides](https://slides.com/)  
 [Trello](https://trello.com/b/qIXnEJrG/data-project2-pandas-anna)  
