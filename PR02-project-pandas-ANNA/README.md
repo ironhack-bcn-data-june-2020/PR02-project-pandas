@@ -15,15 +15,16 @@
 Analysis of global shark attacks through data wrangling, cleaning, and manipulation with Pandas.
 
 Main questions to be answered: (to be added)
-.
-.
-.
-.
-.
+
+- 
+- 
+- 
+-
 
 
 ## Workflow
 Outline the workflow you used in your project. What are the steps you went through?
+
 (to be added: subir la checklist)
 
 ## Organization
@@ -41,11 +42,11 @@ Outline the workflow you used in your project. What are the steps you went throu
 
 **Inside this repository you can find:**
 
-. Table of shark attack incidents compiled by the Global Shark Attack. Source:[Kaggle](https://www.kaggle.com/teajay/global-shark-attacks?select=attacks.csv)
-. Jupyter notebook of the data wrangling
-. CSV data file with the clean data 
-. Gitignore.txt
-. README.md
+- Table of shark attack incidents compiled by the Global Shark Attack. Source:[Kaggle](https://www.kaggle.com/teajay/global-shark-attacks?select=attacks.csv)
+- Jupyter notebook of the data wrangling
+- CSV data file with the clean data 
+- Gitignore.txt
+- README.md
 
 
 ## Links 
