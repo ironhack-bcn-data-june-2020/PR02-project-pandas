@@ -10,57 +10,39 @@ The goal of this project is to combine everything you have learned about data wr
 
 ---
 
-## Technical Requirements
+## What are we trying to accomplish? 
 
-The technical requirements for this project are as follows:
+The question I decided to answer were 3 :
+### What are the areas with a high concentration of shark attacks?
+### What percentage of the attacks are lethal?
+### Has de severity of the attacks decreased with time?
 
-* The dataset that we provide you is a significantly messy data set. Apply the different cleaning and manipulation techniques you have learned.
-* Import the data using Pandas.
-* Examine the data for potential issues.
-* Use at least 8 of the cleaning and manipulation methods you have learned on the data.
-* Produce a Jupyter Notebook that shows the steps you took and the code you used to clean and transform your data set.
-* Export a clean CSV version of your data using Pandas.
+To accomplish this the data must be cleaned up since the database is a pretty messy initial state.
 
-## Necessary Deliverables
+### Steps :
 
-The following deliverables should be pushed to your Github repo for this chapter.
+1- Import Database & libraries
 
-* **A cleaned CSV data file** containing the results of your data wrangling work.
-* **A Jupyter Notebook (data-wrangling.ipynb)** containing all Python code and commands used in the importing, cleaning, manipulation, and exporting of your data set.
-* **A ``README.md`` file** containing a detailed explanation of the process followed in the importing, cleaning, manipulation, and exporting of your data as well as your results, obstacles encountered, and lessons learned.
+2- Consult general database information(size,number of null values, what kind of values does each column contain...)
 
-## Suggested Ways to Get Started
+3- Start cleaning , all columns and rows that doesn't provide useful information to answer our questions
 
-* **Examine the data and try to understand what the fields mean** before diving into data cleaning and manipulation methods.
-* **Break the project down into different steps** - use the topics covered in the lessons to form a check list, add anything else you can think of that may be wrong with your data set, and then work through the check list.
-* **Use the tools in your tool kit** - your knowledge of Python, data structures, Pandas, and data wrangling.
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+4- Manipulate the data to fix some missing values or wrongfully entered values like typo's or years indicated by 0 when on Date we have some dates of reference.
 
-## Useful Resources
+5- We have to transform and apply some functions to some columns to transform the data from float to integers.
 
-* [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
-* [Pandas Tutorials](https://pandas.pydata.org/pandas-docs/stable/tutorials.html)
-* [StackOverflow Pandas Questions](https://stackoverflow.com/questions/tagged/pandas)
-* [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets)
-* [Kaggle Data Sets](https://www.kaggle.com/datasets)
+6- We can export our cleaned csv and do some calculations to answer our questions.
 
-## Project Feedback + Evaluation
+## What did I found out? 
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+1- California isn't the best place to go on vacation if you're afraid of sharks. 
+2- After the cleaning, and only taking into account relaiable data, so excluding unknowns , 20%.
+3- It seems so, but since on the last period I had an issue on the spreadding of some dates I cannot be sure. But seemed like started on a 53% and reduced up to a 13.97%.
 
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
+## What areas did I struggle with? 
 
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
+I just couldn't manage to fix an issue where some of the years, already converted to integer, were translated into NaN floats when trying to group by 20 the years.
 
-* __Total__: Your instructors will give you a total score on your project between:
+## What could be improved? 
 
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
-
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
-
+In general the whole project could have a lot to improve , answering more questions, cleaning better and using more pandas tools.
