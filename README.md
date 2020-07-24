@@ -8,3 +8,5 @@
 -I cleaned all the columns that I am going to use to answer the questing that I will formulate.
 -I developed the question.
 
+The most difficult part for me was to create a pivot tablet or cross table. I tried, but I could not mix the data to create a proper one
+
