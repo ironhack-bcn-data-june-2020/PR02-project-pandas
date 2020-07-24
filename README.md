@@ -22,12 +22,22 @@ To accomplish this the data must be cleaned up since the database is a pretty me
 ### Steps :
 
 1- Import Database & libraries
+
 2- Consult general database information(size,number of null values, what kind of values does each column contain...)
+
 3- Start cleaning , all columns and rows that doesn't provide useful information to answer our questions
+
 4- Manipulate the data to fix some missing values or wrongfully entered values like typo's or years indicated by 0 when on Date we have some dates of reference.
+
 5- We have to transform and apply some functions to some columns to transform the data from float to integers.
+
 6- We can export our cleaned csv and do some calculations to answer our questions.
 
+## What did I found out? 
+
+1- California isn't the best place to go on vacation if you're afraid of sharks. 
+2- After the cleaning, and only taking into account relaiable data, so excluding unknowns , 20%.
+3- It seems so, but since on the last period I had an issue on the spreadding of some dates I cannot be sure. But seemed like started on a 53% and reduced up to a 13.97%.
 
 ## What areas did I struggle with? 
 
