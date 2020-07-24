@@ -35,8 +35,10 @@ To accomplish this the data must be cleaned up since the database is a pretty me
 
 ## What did I found out? 
 
-1- California isn't the best place to go on vacation if you're afraid of sharks. 
+1- California isn't the best place to go on vacation if you're afraid of sharks.
+
 2- After the cleaning, and only taking into account relaiable data, so excluding unknowns , 20%.
+
 3- It seems so, but since on the last period I had an issue on the spreadding of some dates I cannot be sure. But seemed like started on a 53% and reduced up to a 13.97%.
 
 ## What areas did I struggle with? 
