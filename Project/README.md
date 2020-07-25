@@ -1,7 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Pandas project
-*Lola L¿opez*
+*Lola López*
 
 *bcn-data-june-2020*
 
