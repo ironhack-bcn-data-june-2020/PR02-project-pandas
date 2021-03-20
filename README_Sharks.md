@@ -1,5 +1,5 @@
 
-# Data Cleaning and Manipulation with Pandas
+# Sharks Attacks
 
 ## Overview
 
@@ -59,4 +59,3 @@ The goal of this project was to combine everything I have learned about data wra
 - I should practice regex more
 - I should have used group by and more pivot tables, melt
 - Next time I will try to use open refine (for the clusters) 
-- 
