@@ -6,13 +6,18 @@
 
 **Planning the project:** 
 The project was planned with Trello. Before I started the cleaning process, I thought of the questions I wanted to answer, which columns I needed to answer the questions and which data format. 
+
 **Importing:** I imported the data easily. I had to do it twice, because if the middle of the project I discovered OpenRefine and decided to use it. 
+
 **Cleaning:** for every column I wanted to clean, I followed the same procedure: 
+
 * First I used the methods describe() and value_counts() to have a general overview of the data. 
 * Then I created a dictionary to see all the items in detail, see if there were obvious patterns to make the cleaing easier. 
 * I cleaned the values with either OpenRefine, replace or lambda functions, or a combination of the three. 
 * I filled the empty values with 'Unknown' in the case of string columns, and with 0s in the integer columns. I considered using the mean of the column, but I thought it would alter the histogram too much so I didn't use it in the end. 
+
 **Manipulation:** I dropped the columns I wouln't need for my analysis. I also dropped all the rows that had 3 or more empty values and all the duplicates in the beginning. As I analysed the Activity column, I realised some accidents didn't involve sharks, so I removed those rows as well. 
+
 **Exporting:** I exported the data easily into a new csv file. 
  
 
